@@ -1,9 +1,8 @@
 class Openresty < Formula
   desc "Scalable Web Platform by Extending NGINX with Lua"
   homepage "https://openresty.org"
-  VERSION = "1.13.6.2".freeze
-  url "https://openresty.org/download/openresty-#{VERSION}.tar.gz"
-  sha256 "946e1958273032db43833982e2cec0766154a9b5cb8e67868944113208ff2942"
+  url "https://openresty.org/download/openresty-1.15.8.1rc1.tar.gz"
+  sha256 "dfbb0038fd5829014efaf1ab7f269e60ebcf7d53220262a96b4c2b9e42ea7226"
 
   option "with-debug", "Compile with support for debug logging but without proper gdb debugging symbols"
   option "with-postgresql", "Compile with ngx_http_postgres_module"
